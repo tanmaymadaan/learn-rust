@@ -22,6 +22,7 @@ This plan is designed to help you learn Rust over approximately 90 days, dedicat
   - Tuples: Fixed-size ordered lists of elements of different types.
   - Arrays: Fixed-size lists of elements of the same type.
 - Introduction to Ownership: Conceptual overview (what it is, why it's important).
+- Practical Project: The guessing game from Chapter 2 of TRPL, incorporating user input, random number generation, match expressions, and loops.
 
 **Week 3: Ownership & Borrowing**
 

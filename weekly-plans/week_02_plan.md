@@ -6,7 +6,7 @@
 
 **Key Resources:**
 
-- "The Rust Programming Language" (TRPL) book: Chapters 3.5, 4.1.
+- "The Rust Programming Language" (TRPL) book: Chapters 2, 3.5, 4.1.
 - Rustlings exercises (optional, but highly recommended).
 
 ---
@@ -81,5 +81,22 @@
     - Write a function that takes an integer and returns it (observing copy). (30-40 mins)
   - Review: Briefly re-read TRPL Chapter 4.1 to solidify concepts. (10-15 mins)
   - Optional: Continue with Rustlings: `move_semantics` exercises.
+
+**Weekend Project Addition: The Guessing Game from Chapter 2**
+
+- **Objective:** Apply the concepts you've learned by building the guessing game project from TRPL Chapter 2.
+- **Activities:**
+  - Read: TRPL - Chapter 2 "Programming a Guessing Game" (30-40 mins)
+  - Code along:
+    - Create a new project: `cargo new guessing_game`
+    - Set up a simple guessing game that:
+      - Generates a random number
+      - Takes user input
+      - Compares the user's guess to the random number
+      - Gives feedback and allows multiple guesses
+    - Learn how to add dependencies to your project via Cargo.toml
+    - Practice using the `match` expression for simple error handling
+    - Use loops to allow multiple guesses (60-90 mins)
+  - This project integrates multiple concepts you've learned: variables, control flow, functions, and introduces new ones like external crates and basic error handling.
 
 ---
